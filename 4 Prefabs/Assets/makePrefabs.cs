@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class makePrefabs : MonoBehaviour {
 
-	public Transform brick;
+	public GameObject brick;
 	// Use this for initialization
 	void Start () {
 		for (int y = 0; y < 5; y++)
