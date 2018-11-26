@@ -1,0 +1,414 @@
+fileFormatVersion: 2
+guid: 5d57b59ff377e435b8784205460d03f3
+timeCreated: 1542748260
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: heart
+    21300002: pacman
+    21300004: icons_2
+    21300006: icons_3
+    21300008: icons_4
+    21300010: gold
+    21300012: mushroom
+    21300014: icons_7
+    21300016: icons_8
+    21300018: icons_9
+    21300020: icons_10
+    21300022: ghost
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: heart
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 409
+        width: 128
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48, y: 61.5}
+        - {x: -64, y: 53.5}
+        - {x: -64, y: -16.5}
+        - {x: -18, y: -61.5}
+        - {x: 26, y: -61.5}
+        - {x: 64, y: -7.5}
+        - {x: 64, y: 47.5}
+        - {x: 53, y: 61.5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pacman
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 401
+        width: 134
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -52, y: 67.5}
+        - {x: -67, y: 58.5}
+        - {x: -67, y: -52.5}
+        - {x: -30, y: -66.5}
+        - {x: 43, y: -66.5}
+        - {x: 45, y: -65.5}
+        - {x: 45, y: 55.5}
+        - {x: 40, y: 67.5}
+      - - {x: 25, y: 6.5}
+        - {x: 22, y: 3.5}
+        - {x: 22, y: -0.5}
+        - {x: 25, y: -3.5}
+        - {x: 35, y: -3.5}
+        - {x: 39, y: 0.5}
+        - {x: 39, y: 2.5}
+        - {x: 35, y: 6.5}
+      - - {x: 52, y: 6.5}
+        - {x: 49, y: 3.5}
+        - {x: 49, y: -0.5}
+        - {x: 52, y: -3.5}
+        - {x: 60, y: -3.5}
+        - {x: 63, y: -0.5}
+        - {x: 63, y: 3.5}
+        - {x: 60, y: 6.5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: icons_2
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 467
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 3}
+        - {x: -5, y: -3}
+        - {x: 5, y: -3}
+        - {x: 5, y: 3}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: icons_3
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 407
+        width: 129
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -43.5, y: 28}
+        - {x: -64.5, y: 4}
+        - {x: -64.5, y: -27}
+        - {x: -63.5, y: -27}
+        - {x: -64.5, y: -31}
+        - {x: -64.5, y: -63}
+        - {x: 1.5, y: -63}
+        - {x: 1.5, y: 7}
+        - {x: -18.5, y: 28}
+      - - {x: 53.5, y: 22}
+        - {x: 60.5, y: 26}
+        - {x: 64.5, y: 30}
+        - {x: 64.5, y: 57}
+        - {x: 39.5, y: 63}
+        - {x: -10.5, y: 63}
+        - {x: -15.5, y: 61}
+        - {x: -15.5, y: 19}
+        - {x: -4.5, y: -16}
+        - {x: 28.5, y: -16}
+        - {x: 44.5, y: -7}
+        - {x: 58.5, y: 1}
+        - {x: 59.5, y: 20}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: icons_4
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 456
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -38.5, y: -20.5}
+        - {x: -38.5, y: -38.5}
+        - {x: -23.5, y: -38.5}
+        - {x: -23.5, y: -25.5}
+        - {x: -29.5, y: -20.5}
+      - - {x: 38.5, y: 31.5}
+        - {x: 37.5, y: 36.5}
+        - {x: 29.5, y: 38.5}
+        - {x: -20.5, y: 38.5}
+        - {x: -38.5, y: 31.5}
+        - {x: -38.5, y: -15.5}
+        - {x: -32.5, y: -38.5}
+        - {x: 36.5, y: -38.5}
+        - {x: 34.5, y: -4.5}
+        - {x: 28.5, y: -2.5}
+        - {x: 38.5, y: 2.5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: gold
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 223
+        width: 128
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13, y: 59}
+        - {x: -64, y: 2}
+        - {x: -64, y: -48}
+        - {x: -56, y: -59}
+        - {x: -11, y: -59}
+        - {x: 64, y: -10}
+        - {x: 64, y: 39}
+        - {x: 49, y: 59}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mushroom
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 221
+        width: 128
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -31, y: 61.5}
+        - {x: -46, y: 53.5}
+        - {x: -64, y: 32.5}
+        - {x: -64, y: -47.5}
+        - {x: -59, y: -61.5}
+        - {x: 48, y: -61.5}
+        - {x: 64, y: -55.5}
+        - {x: 64, y: 48.5}
+        - {x: 39, y: 61.5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: icons_7
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 221
+        width: 139
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -62.5, y: 8.5}
+        - {x: -64.5, y: 6.5}
+        - {x: -64.5, y: -52.5}
+        - {x: -5.5, y: -52.5}
+        - {x: -4.5, y: -50.5}
+        - {x: -4.5, y: 8.5}
+      - - {x: 50.5, y: 51.5}
+        - {x: 29.5, y: 51.5}
+        - {x: -4.5, y: 38.5}
+        - {x: -4.5, y: 9.5}
+        - {x: 0.5, y: -15.5}
+        - {x: 11.5, y: -20.5}
+        - {x: 46.5, y: -20.5}
+        - {x: 67.5, y: -7.5}
+        - {x: 67.5, y: 16.5}
+        - {x: 59.5, y: 46.5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: icons_8
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 264
+        width: 68
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 34}
+        - {x: -34, y: 21}
+        - {x: -34, y: 0}
+        - {x: -27, y: -28}
+        - {x: -22, y: -34}
+        - {x: 10, y: -34}
+        - {x: 25, y: -32}
+        - {x: 34, y: -25}
+        - {x: 34, y: 3}
+        - {x: 27, y: 34}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: icons_9
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 35
+        width: 128
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -52, y: 59}
+        - {x: -63, y: 31}
+        - {x: -64, y: 2}
+        - {x: -64, y: -59}
+        - {x: 59, y: -59}
+        - {x: 63, y: -58}
+        - {x: 64, y: -44}
+        - {x: 64, y: 59}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: icons_10
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 30
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 64, y: 64}
+        - {x: 30, y: 64}
+        - {x: -54, y: 43}
+        - {x: -64, y: 11}
+        - {x: -64, y: -64}
+        - {x: -40, y: -64}
+        - {x: 17, y: -41}
+        - {x: 30, y: -26}
+        - {x: 64, y: 34}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ghost
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 30
+        width: 104
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -39, y: 64}
+        - {x: -52, y: 36}
+        - {x: -52, y: -64}
+        - {x: 52, y: -64}
+        - {x: 52, y: 41}
+        - {x: 38, y: 64}
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
